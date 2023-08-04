@@ -1,6 +1,4 @@
 package com.misc.simplecrudapi;
-import com.misc.simplecrudapi.api.Item;
-
 import java.util.NoSuchElementException;
 import java.util.List;
 
@@ -14,10 +12,12 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.misc.simplecrudapi.model.Item;
+
 
 
 @RestController
-@RequestMapping("/api/Item")
+@RequestMapping("/model/Item")
 public class ItemController {
 
     @Autowired
